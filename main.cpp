@@ -225,6 +225,8 @@ bool search(const Set<T> &set, T element) {
             break;
         }
     }
+
+    return result;
 }
 
 template <class T>
